@@ -497,30 +497,34 @@ public class Simulator extends javax.swing.JFrame {
             AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddressLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jToggleButton12, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel15)
                     .addGroup(AddressLayout.createSequentialGroup()
-                        .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel15)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddressLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())))
         );
         AddressLayout.setVerticalGroup(
             AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddressLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel15)
                 .addContainerGap())
@@ -576,8 +580,7 @@ public class Simulator extends javax.swing.JFrame {
         IXR_inputLayout.setHorizontalGroup(
             IXR_inputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(IXR_inputLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jToggleButton14, javax.swing.GroupLayout.DEFAULT_SIZE, 35, Short.MAX_VALUE)
                 .addContainerGap())
@@ -689,11 +692,12 @@ public class Simulator extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jToggleButton2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -703,8 +707,7 @@ public class Simulator extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jToggleButton5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton6)
-                .addContainerGap())
+                .addComponent(jToggleButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -719,7 +722,7 @@ public class Simulator extends javax.swing.JFrame {
                     .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel14)
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -727,17 +730,16 @@ public class Simulator extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
+                .addContainerGap()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(GPR_input, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(IXR_input, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(I, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Address, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(Address, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -877,7 +879,7 @@ public class Simulator extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(515, 515, 515)
                         .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(22, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1268,7 +1270,7 @@ public class Simulator extends javax.swing.JFrame {
         
     }
    String Hexa(String hexas){
-       //accepts binary and returns hexadecimal
+   
         int binary= Integer.parseInt(hexas,2);
          hexaValue = Integer.toString(binary,16).toUpperCase();
         if (hexaValue.length() < 4)
@@ -1512,19 +1514,19 @@ public class Simulator extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton16ActionPerformed
 public void execute(String prc,String bin) {
-    //function to execute the instruction
     
-    String opcode = bin.substring(0, 6); //extracts opcode
-              r = bin.substring(6, 8); //extracts general register location
-		ix = bin.substring(8, 10); //extracts index register location
-		i = bin.substring(10, 11); //indirect addressung
-		address = bin.substring(11, 16);// exctracts address value
-               String add=  EffectiveAddress(Hexa(address),bin); //converts address to effective address
+    
+    String Mapper = bin.substring(0, 6); 
+              r = bin.substring(6, 8); 
+		ix = bin.substring(8, 10); 
+		i = bin.substring(10, 11);
+		address = bin.substring(11, 16);//
+               String add=  EffectiveAddress(Hexa(address),bin); 
               
 
-              System.out.println(opcode);
+              System.out.println(Mapper);
                 System.out.println(add);
-             String instr=Mapping.get(opcode); //extracts instruction to be executed
+             String instr=Mapping.get(Mapper); 
              
 //               
              System.out.println(instr);
@@ -1683,31 +1685,38 @@ public void execute(String prc,String bin) {
 
     
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        
-      
-         sTringToHexa();
-         jLabel19.setForeground(Color.BLACK); 
-     
-             int  prc=Integer.parseInt(PC.getText(),16); 
-            
-              String binary =hexToBinary(memorya.get(PC.getText()));
-        
-            
-             System.out.println(binary);
-//            
-             
-             execute(PC.getText(),binary);// 
-             prc++;
-             PC.setText(DecimaltoHexa(prc));
-             IR.setText(binary);
-             String end=LastAdd(PC.getText());
-             if("ends".equals(end)){
-             jLabel19.setForeground(Color.red);
-             PC.setText("0000");
-             execute(PC.getText(),memorya.get(PC.getText()));
-             
-             
-             }
+        sTringToHexa();
+        // Set the foreground color of the "jLabel19" component to black
+        jLabel19.setForeground(Color.BLACK); 
+
+        // Convert the value of the PC register from hexadecimal to decimal representation
+        int prc=Integer.parseInt(PC.getText(),16); 
+
+        // Convert the value at the current PC address in the memorya map from hexadecimal to binary representation
+        String binary =hexToBinary(memorya.get(PC.getText()));
+
+        // Print the binary representation to the console
+        System.out.println(binary);
+
+        // Execute the instruction at the current PC address
+        execute(PC.getText(),binary);
+        // Increment the PC register
+        prc++;
+        // Convert the incremented PC value back to hexadecimal representation
+        PC.setText(DecimaltoHexa(prc));
+        // Set the value of the IR register to the binary representation of the executed instruction
+        IR.setText(binary);
+        // Get the return value of the LastAdd method with the current PC address as input
+        String end=LastAdd(PC.getText());
+        // If the return value is "ends", set the foreground color of the "jLabel19" component to red
+        if("ends".equals(end)){
+            jLabel19.setForeground(Color.red);
+            // Reset the PC register to "0000"
+            PC.setText("0000");
+            // Execute the instruction at the reset PC address
+            execute(PC.getText(),memorya.get(PC.getText()));
+        }
+ 
              
               
     }//GEN-LAST:event_jButton15ActionPerformed
@@ -1715,27 +1724,36 @@ public void execute(String prc,String bin) {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         
     }//GEN-LAST:event_jTextField1ActionPerformed
-    
+    // This method takes a string argument "addr" and returns a string value
     String LastAdd(String addr){
+        // Initialize a counter variable to count the number of occurrences of "addr" in the memorya map
         int count=0;
+        // Iterating over the keys in the memorya map
         for (String i : memorya.keySet()){
+            // If the current key is equal to the input "addr", increment the count
             if (i.equals(addr)){
                 count++;
             }
         }
+        // If the count is 0, return the string "ends"
         if(count==0){return "ends";}
+        // Print the count to the console
         System.out.println("count"+count);
+        // Return the string "hel"
         return "hel";
-    }    
+}
+
     
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Simulator().setVisible(true);
-                
-            }
-        });
-    }
+ // The main method is the starting point of the application
+public static void main(String args[]) {
+    // The invokeLater method is used to execute the runnable on the Event Dispatch Thread (EDT)
+    java.awt.EventQueue.invokeLater(new Runnable() {
+        public void run() {
+            // Creating an instance of the Simulator class and setting its visibility to true
+            new Simulator().setVisible(true);
+        }
+    });
+}
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Address;
     private javax.swing.JPanel GPR;
