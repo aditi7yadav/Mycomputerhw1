@@ -62,7 +62,7 @@ public class Simulator extends javax.swing.JFrame {
     String x2= "0";
     String x1= "0";
     String x0= "0";
-
+// we are adding and setting the othe rlements og 
     String ix="";
     String i="";
     String address="0000";
@@ -518,13 +518,12 @@ public class Simulator extends javax.swing.JFrame {
             AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AddressLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jToggleButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(AddressLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jToggleButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jToggleButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jToggleButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jToggleButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel15)
                 .addContainerGap())
@@ -580,7 +579,8 @@ public class Simulator extends javax.swing.JFrame {
         IXR_inputLayout.setHorizontalGroup(
             IXR_inputLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(IXR_inputLayout.createSequentialGroup()
-                .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()
+                .addComponent(jToggleButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jToggleButton14, javax.swing.GroupLayout.DEFAULT_SIZE, 35, Short.MAX_VALUE)
                 .addContainerGap())
@@ -692,12 +692,11 @@ public class Simulator extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
+                        .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jToggleButton2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -707,7 +706,8 @@ public class Simulator extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jToggleButton5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jToggleButton6)
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -722,7 +722,7 @@ public class Simulator extends javax.swing.JFrame {
                     .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel14)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -730,9 +730,9 @@ public class Simulator extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(14, 14, 14)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(GPR_input, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(IXR_input, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -940,6 +940,7 @@ public class Simulator extends javax.swing.JFrame {
           boolean selected = jToggleButton11.getModel().isSelected();
        if (selected){
             x2="1";
+        // this changes the color of the button 
     jToggleButton11.setForeground(Color.GREEN);
            
        }
@@ -949,7 +950,7 @@ public class Simulator extends javax.swing.JFrame {
        }
     }//GEN-LAST:event_jToggleButton11ActionPerformed
 
-    //
+    //this function displays if the button is selected 
     private void jToggleButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton10ActionPerformed
 
         // // This function sets operations  switched it when it's clicked 
@@ -1471,129 +1472,160 @@ public class Simulator extends javax.swing.JFrame {
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         
-        //load button
+
+        // Get the address value from MAR
         String add= MAR.getText(); 
+
+        // Retrieve the value stored at the address in memorya
         String res = memorya.get(add);  
+
+        // Set the value of MBR to the retrieved value
         MBR.setText(res);
+
+        // Print out the retrieved value
         System.out.println(res);
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         
-        //store
-        memorya.put(MAR.getText(),MBR.getText());
-        System.out.println(memorya);
+    // Store the value of MBR in the memorya map with the key as the value of MAR
+    memorya.put(MAR.getText(),MBR.getText());
+
+    // Print out the entire memorya map
+    System.out.println(memorya);
+
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+  // Call the method to convert string to hexadecimal
+        sTringToHexa();
         
-        //run button
-      
-         sTringToHexa();
-         
-      
-         for (String i : memorya.keySet()){ 
-             String bin =hexToBinary(memorya.get(i)); 
-             programcounter++;
-             System.out.println("i" + hexToBinary(i)+" " +"value"+hexToBinary(memorya.get(i))+ programcounter); 
-             System.out.println(bin);
-               execute(i,bin); 
-               IR.setText(bin); 
-              
-
-
-             PC.setText(i); 
-               instruct.put(i,bin); 
-
-
-
+        // Loop through the memorya map to process each key-value pair
+        for (String i : memorya.keySet()){ 
+            
+            // Convert the hexadecimal value of memorya to binary
+            String bin =hexToBinary(memorya.get(i)); 
+            
+            // Increment the program counter
+            programcounter++;
+            
+            // Print out the value of "i" and "value" in binary format, along with the program counter
+            System.out.println("i" + hexToBinary(i)+" " +"value" + hexToBinary(memorya.get(i))+ programcounter); 
+            System.out.println(bin);
+            
+            // Call the execute method with the current iteration's key and binary value
+            execute(i,bin); 
+            
+            // Set the value of IR to the binary value
+            IR.setText(bin); 
+            
+            // Set the value of PC to the key of the current iteration
+            PC.setText(i); 
+            
+            // Put the key-binary value pair into the instruct map
+            instruct.put(i,bin); 
          }
-        
-                   jLabel19.setForeground(Color.red); 
-        
-        
+                  
+         // Set the foreground color of jLabel19 to red
+         jLabel19.setForeground(Color.red); 
+          
     }//GEN-LAST:event_jButton16ActionPerformed
 public void execute(String prc,String bin) {
-    
-    
-    String Mapper = bin.substring(0, 6); 
-              r = bin.substring(6, 8); 
-		ix = bin.substring(8, 10); 
-		i = bin.substring(10, 11);
-		address = bin.substring(11, 16);//
-               String add=  EffectiveAddress(Hexa(address),bin); 
-              
 
-              System.out.println(Mapper);
-                System.out.println(add);
-             String instr=Mapping.get(Mapper); 
-             
-//               
-             System.out.println(instr);
-             System.out.println(r); 
-     if(instr == "HLT"){System.out.println("null");// halt
-     Halt="end";
-     }
-     else{
-        
-     switch (instr){
-                 case "LDR":
-                   
-                     if ("00".equals(r)){
+    // Extracting the instruction code from the binary string
+    String Mapper = bin.substring(0, 6); 
+    // Extracting the register code from the binary string
+    r = bin.substring(6, 8); 
+    // Extracting the index code from the binary string
+    ix = bin.substring(8, 10); 
+    // Extracting the indirect bit from the binary string
+    i = bin.substring(10, 11);
+    // Extracting the address from the binary string
+    address = bin.substring(11, 16);
+    // Calculating the effective address
+    String add=  EffectiveAddress(Hexa(address),bin); 
+
+    // Retrieving the instruction from the instruction map
+    String instr=Mapping.get(Mapper); 
+
+    // Checking if the instruction is HLT
+    if(instr == "HLT"){
+        System.out.println("null"); // halt
+        Halt="end";
+    }
+    else{
+        // Switch statement for different instructions
+        switch (instr){
+            case "LDR":
+                // Load register
+                if ("00".equals(r)){
+                    // Loading value from memory to GPR0
+                    GPR0.setText(memorya.get(add));
+                    // Setting values in the MAR and MBR
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                else if("01".equals(r)){
+                    // Loading value from memory to GPR1
+                    GPR1.setText(memorya.get(add));
+                    // Setting values in the MAR and MBR
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                else if("10".equals(r)){
+                    // Loading value from memory to GPR2
+                    GPR2.setText(memorya.get(add));
+                    // Setting values in the MAR and MBR
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                else if("11".equals(r)){
+                    // Loading value from memory to GPR3
+                    GPR3.setText(memorya.get(add));
+                    // Setting values in the MAR and MBR
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                break;
                      
-                        GPR0.setText(memorya.get(add));
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                     else if("01".equals(r)){
-                        
-                        GPR1.setText(memorya.get(add));
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                      else if("10".equals(r)){
-                       
-                        GPR2.setText(memorya.get(add));
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                      else if("11".equals(r)){
-                    
-                        GPR3.setText(memorya.get(add));
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                     break;
-                 case "LDA":
-                     if ("00".equals(r)){
                      
-                        GPR0.setText(add);
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                     else if("01".equals(r)){
-                        
-                        GPR1.setText(add);
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                      else if("10".equals(r)){
-                       
-                        GPR2.setText(add);
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                      else if("11".equals(r)){
-                    
-                        GPR3.setText(add);
-                        MAR.setText(add);
-                        MBR.setText(memorya.get(add));
-                     }
-                      break;
-                case "HLT":
-                     System.out.println("HLT");
-                      Halt="end";
-                      break;
+                                     
+// If the instruction is "LDA", the program checks the value of the register "r".
+            case "LDA":
+                // If the value of "r" is "00", the text of GPR0, MAR and MBR are set to the value of "add".
+                if ("00".equals(r)) {
+                    GPR0.setText(add);
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                // If the value of "r" is "01", the text of GPR1, MAR and MBR are set to the value of "add".
+                else if("01".equals(r)) {
+                    GPR1.setText(add);
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                // If the value of "r" is "10", the text of GPR2, MAR and MBR are set to the value of "add".
+                else if("10".equals(r)) {
+                    GPR2.setText(add);
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                // If the value of "r" is "11", the text of GPR3, MAR and MBR are set to the value of "add".
+                else if("11".equals(r)) {
+                    GPR3.setText(add);
+                    MAR.setText(add);
+                    MBR.setText(memorya.get(add));
+                }
+                // Exits the switch statement.
+                break;
+
+            // If the instruction is "HLT", the program outputs the message "HLT" and sets the value of Halt to "end".
+            case "HLT":
+                System.out.println("HLT");
+                Halt = "end";
+                break;
+                      
+                      
                   case "STR":
                      if ("00".equals(r)){
                      
